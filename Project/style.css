@@ -1,0 +1,27 @@
+
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1 {
+    text-align: center;
+    color: #3E8E7E;
+  }
+
+  h2 {
+    text-align: center;
+    color: #9B0000;
+  }
+
+  h3 {
+    text-align: center;
+    color: #F3950D;
+  }
